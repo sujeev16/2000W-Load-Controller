@@ -24,20 +24,14 @@ topology controlled by STM32 microcontroller.
 | PCB | 2-layer FR4 2oz copper |
 
 ## Repository Structure
-2000W-Load-Controller/
-├── Block_Diagram/
-│   └── Block_Diagram.pdf
-├── Schematic/
-│   └── Schematic.pdf
-├── PCB/
-│   └── PCB_Layout.pdf
-├── Gerbers/
-│   └── All .gbr files
-├── Simulation/
-│   └── LTspice files + waveforms
-└── Documentation/
-├── BOM_and_Writeup.docx
-└── BOM.csv
+
+- **Block_Diagram/** — System architecture diagram
+- **Schematic/** — KiCad schematic PDF
+- **PCB/** — PCB layout PDF and design files
+- **Gerbers/** — Fabrication files (.gbr, .drl)
+- **Simulation/** — LTspice circuit and waveform screenshots
+- **Documentation/** — BOM, write-up and component list
+  
 ## Features
 - LM2596S buck converter 40V → 36V
 - IRF540N MOSFET switching at 10kHz
