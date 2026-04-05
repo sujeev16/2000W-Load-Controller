@@ -1,5 +1,3 @@
-# 2000W-Load-Controller
-2000W EV Load Controller for  Gray Mobility 
 # 2000W Load Controller — Gray Mobility 
 
 ![KiCad](https://img.shields.io/badge/KiCad-8.0-blue)
